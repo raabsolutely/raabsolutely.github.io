@@ -55,7 +55,7 @@ strong {
   padding: 0 !important;
   display: none;
 }
-.notion-header__content&gt;div {
+.notion-header__content>div {
   margin-bottom: 0px !important;
 }
 .notion-header {
