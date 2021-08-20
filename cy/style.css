@@ -197,7 +197,7 @@ h3.notion-heading .notion-semantic-string {
 }
 
 /* --- Control heading spacing in column layout --- */
-.notion-column&gt;.notion-heading {
+.notion-column>.notion-heading {
   margin-top: 7px !important;
 }
 
@@ -214,7 +214,7 @@ h3.notion-heading .notion-semantic-string {
 }
 
 /* --- Change handling of full width images --- */
-.notion-image.page-width &gt; div {
+.notion-image.page-width > div {
   display: block !important;
   margin-bottom: 6px !important;
 }
@@ -225,7 +225,7 @@ h3.notion-heading .notion-semantic-string {
 }
 
 /* --- Change Image caption alignment --- */
-.notion-image.page-width&gt;figcaption, .notion-image.full-width&gt;figcaption {
+.notion-image.page-width>figcaption, .notion-image.full-width>figcaption {
   text-align: center !important;
 }
 
@@ -268,11 +268,11 @@ h3.notion-heading .notion-semantic-string {
 .notion-collection-card:hover {
   background: transparent !important;
 }
-.notion-collection-card__cover.large, .notion-collection-card__cover.large&gt;div, .notion-collection-card__cover.large img, .notion-collection-card__cover.medium, .notion-collection-card__cover.medium&gt;div, .notion-collection-card__cover.medium img {
+.notion-collection-card__cover.large, .notion-collection-card__cover.large>div, .notion-collection-card__cover.large img, .notion-collection-card__cover.medium, .notion-collection-card__cover.medium>div, .notion-collection-card__cover.medium img {
   height: auto !important;
   max-height: none !important;
 }
-.notion-collection-card__cover.large&gt;div {
+.notion-collection-card__cover.large>div {
   position: relative !important;
 }
 .notion-collection-card__cover {
@@ -378,7 +378,7 @@ h3.notion-heading .notion-semantic-string {
 .notion-header__content.no-icon.has-cover .notion-header__title-wrapper {
   margin-top: 0 !important;
 }
-article[id*="projects-"] .notion-page__property &gt; .property-49775679 .notion-pill {
+article[id*="projects-"] .notion-page__property > .property-49775679 .notion-pill {
   font-weight: 600 !important;
   font-size: 0.75rem !important;
   line-height: 1.25 !important;
@@ -553,13 +553,13 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 
 /* Uses Notion’s file property to display featured image for article */
-.notion-collection-list__item-property .notion-property__file a &gt; div, .notion-collection-list__item-property .notion-property__file img {
+.notion-collection-list__item-property .notion-property__file a > div, .notion-collection-list__item-property .notion-property__file img {
   width: 100% !important;
   height: auto !important;
   max-height: none !important;
   margin-right: 0 !important;
 }
-.notion-collection-list__item-property .notion-property__file a &gt; div &gt; div, .notion-collection-list__item-property .notion-property__file img {
+.notion-collection-list__item-property .notion-property__file a > div > div, .notion-collection-list__item-property .notion-property__file img {
   position: relative !important;
 }
 .notion-collection-list__item-property .notion-property__file img {
@@ -762,4 +762,3 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 .notion-collection-table__cell .notion-semantic-string {
   white-space: normal !important;
 }
-</pre><div id="pocket-extension-root"><div class="pocket-egasyq"></div></div><div id="pocket-extension-styles"><style data-emotion="pocket"></style></div></body></html>
