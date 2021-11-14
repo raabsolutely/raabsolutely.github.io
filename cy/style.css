@@ -282,7 +282,7 @@ h3.notion-heading .notion-semantic-string {
 }
 .notion-collection-card__cover img {
   position: relative !important;
-  height: auto !important;
+  height: 400px;
   width: 100% !important;
   border-radius: 0  !important;
   object-fit: contain !important;
