@@ -735,7 +735,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 }
 /* Reset font size */
 .notion-collection-table {
-  font-size: .8rem !important;
+  font-size: .8em !important;
 }
 /* Hide header row */
 .notion-collection-table th {
